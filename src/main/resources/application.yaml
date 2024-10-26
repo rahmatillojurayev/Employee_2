@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: interview
+  datasource:
+    driverClassName: org.postgresql.Driver
+    password: 8332288
+    url: jdbc:postgresql://localhost:5432/interview
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        use_sql_comments: true
